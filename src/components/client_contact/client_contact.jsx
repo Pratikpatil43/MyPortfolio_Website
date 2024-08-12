@@ -6,7 +6,7 @@ const ClientContact = () => {
   return (
     <div className="contact_form">
       <h1><center>Contact Us</center></h1>
-      <form action='https://portfolio-website-backend-i82b.onrender.com/' method='post'>
+      <form action='/' method='post'>
         <div className="input_container1">
           <label htmlFor="clientname">First Name:</label>
           <input type="text" id="clientFname" placeholder='Enter first Name' name="clientFname" required/>
